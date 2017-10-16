@@ -1,0 +1,60 @@
+/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*/#social-bar {
+  display: block;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+#social-bar li {
+  display: block;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  border-radius: 40px 40px 40px 40px;
+}
+#social-bar li a {
+  position: absolute;
+  height: 66px;
+  width: 32px;
+  top: 0;
+  left: 0px;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+#social-bar li a:hover {
+  top: -32px;
+}
+#social-bar .dribbble a {
+  background-image: url('../img/social/dribbble.png');
+}
+#social-bar .library a {
+  background-image: url('../img/social/library.png');
+}
+
+#social-bar .ss a {
+  background-image: url('../img/social/ss.png');
+}
+#social-bar .filkom a {
+  background-image: url('../img/social/filkom.png');
+}
+
+#social-bar .googleplus a {
+  background-image: url('../img/social/googleplus.png');
+}
+#social-bar .baak a {
+  background-image: url('../img/social/baak.png');
+ }
+
+#social-bar .rss a {
+  background-image: url('../img/social/rss.png');
+}
